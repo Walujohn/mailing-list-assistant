@@ -7,8 +7,9 @@ You approve each command before it runs.
 ```powershell
 git clone https://github.com/<you>/mailing-list-assistant.git
 cd mailing-list-assistant
-.\setup.ps1
-.\assistant.ps1
+.\setup.ps1               # one time; asks for your OpenAI key and installs deps
+# open a NEW PowerShell window so the profile loads, then:
+mailing-assistant         # or: .\assistant.ps1
 
 ---
 

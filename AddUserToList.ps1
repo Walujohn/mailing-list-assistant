@@ -4,4 +4,4 @@ param(
 )
 
 Write-Host "Pretend-Add: $Email -> list '$ListName'"
-# Real script would do the update here.
+# TODO: call your real implementation here
